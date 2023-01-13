@@ -402,3 +402,158 @@ footer .footer-image img {
 }
 
 /*#### end footer ####*/
+/*############################ Hiba Sections ############################################*/
+a{
+    text-decoration: none;
+}
+.newProduct{
+    
+    text-align: center;
+    height: 75vh;
+
+}
+.newProduct span ,.sellers span{
+    font-size: 15px;
+    font-weight: 500;
+color: #101010;;
+
+}
+h3{
+    font-size: 23px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+/*Shop Limited Edition section*/
+.limited{
+    height: 65vh;
+    background-image: url('../image/HibaImages/home-shop-1-parallax.jpg');
+    background-position:center  0%;
+    background-attachment:fixed;
+
+}
+
+.limited span{
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+}
+.limited p{
+    font-family: 'Open Sans', sans-serif;
+ color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height:35px;
+}
+.limited-content {
+    width: 55%;
+}
+.btn1,.btn2{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.btn1{
+    background-color: #0cc3ce;
+    transition: 0.5s;
+ 
+}
+.btn1:hover{
+    background-color: #191919;
+}
+.btn2{
+    border-color: rgba(255,255,255,0.5)!important;
+    transition: 0.5s;
+    box-sizing: border-box !important;
+ 
+}
+.btn2:hover{
+    background-color: #0cc3ce;
+    border: none !important;
+
+}
+/*Best Sellers  section*/
+.sellers{
+    text-align: center;
+}
+
+ .sel-content{
+    border-bottom: 1px solid #e1e2e5;
+}
+.sel-content span{
+    font-size: 12px;
+   color: #777;
+
+}
+.sel-content h5{
+    font-size: 15px;
+    color:#101010;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+
+}
+.sel-content p{
+    letter-spacing: -0.5px;
+    font-size: 12px;
+    color:#101010;
+    font-weight: 500;
+}
+
+.cart1{
+    background-color:#101010;
+    float: left;
+    width:80%;
+    height:50px;
+    text-align: center;
+    padding: 12px 1px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.cart2{
+  background-color:#101010; 
+  float: left;
+  width:20%; 
+  height: 50px;
+  text-align: center;
+  padding: 12px 1px;
+  border-left: 0.1px solid  #777;
+  transition: 0.5s;
+
+}
+.cart2:hover{
+  background-color: #0cc3ce;
+}
+.add-cart span ,.add-cart i{
+   color:white;
+}
+.fir-img{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    transition: top 0.5s;
+   
+    transition-duration:top 0.5s;
+    }
+    .hov{
+        position: relative; 
+   overflow: hidden;
+
+    }
+    .add-cart{
+        overflow: hidden;
+      position: absolute;
+    left:0;
+    bottom: 8px;
+    width: 100%;
+    z-index: 0;
+    }
+    .hov-img{
+        z-index: -5;
+
+    }
+.col-3:hover .fir-img{
+    top:-100%;
+}
+/*######################################## end Hiba Sections ########################################################*/
