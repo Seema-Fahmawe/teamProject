@@ -1,0 +1,127 @@
+@media (max-width:1200px) {
+
+    /*#### start header style ####*/
+    header .carousel-inner .carousel-item h2 {
+        font-size: 64px;
+        letter-spacing: -1px;
+        line-height: 73px;
+    }
+
+    header .carousel-inner .carousel-item h3 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    header .carousel-inner .carousel-item a {
+        font-size: 10px;
+        line-height: 42px;
+    }
+
+    header .carousel-inner .carousel-item .header-button {
+        margin-top: -25px;
+    }
+
+    /*#### end header style ####*/
+}
+
+@media (max-width:991px) {
+
+
+    /*#### start header ####*/
+    header .carousel-inner .carousel-item h2 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 4px;
+    }
+
+    header .carousel-inner .carousel-item h3 {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    header .carousel-inner .carousel-item a {
+        font-size: 9px;
+        line-height: 37px;
+    }
+
+    header .carousel-inner .carousel-item .carousel-caption {
+        top: 50px;
+    }
+
+    .part2-header .homeShop .item:first-child p,
+    .part2-header .homeShop .item:last-child p {
+        left: 6%;
+    }
+    .part2-header .homeShop .item p{
+        left:25%;
+    }
+    /*#### end header ####*/
+
+
+}
+
+@media (max-width:767px) {
+
+    /*#### start header ####*/
+    header .carousel-inner .carousel-item h2 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+
+    header .carousel-inner .carousel-item a {
+        font-size: 8px;
+        line-height: 32px;
+        padding: 0 20px;
+    }
+
+    header .carousel-item img {
+        width: 115% !important;
+    }
+
+    /*#### end header ####*/
+    .part2-header .homeShop .item {
+        margin: 10px 30px;
+
+    }
+    .part2-header .homeShop .item:first-child p,
+    .part2-header .homeShop .item:last-child p {
+        left:25%;
+    }
+    .part2-header .homeShop .item p{
+        left:35%;
+    }
+    /*#### start footer ####*/
+
+    /*#### end footer ####*/
+
+
+}
+
+@media(max-width:576px) {
+    header .carousel-inner .carousel-item h2 {
+        font-size: 37px;
+        line-height: 42px;
+        margin-bottom: 3px;
+    }
+
+    header .carousel-inner .carousel-item h3 {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    header .carousel-inner .carousel-item a {
+        font-size: 6px;
+        line-height: 26px;
+        padding: 0 15px;
+    }
+
+    header .carousel-item img {
+        width: 150% !important;
+    }
+
+
+    footer .container-fluid {
+        padding-left: 1.25rem;
+        padding-right: 4rem;
+    }
+}
