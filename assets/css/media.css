@@ -22,6 +22,11 @@
     }
 
     /*#### end header style ####*/
+
+    .hov-img,.add-cart{
+        padding: 1.5px;
+       box-sizing: border-box;
+      }
 }
 
 @media (max-width:991px) {
@@ -56,8 +61,24 @@
         left:25%;
     }
     /*#### end header ####*/
+/*Shop Limited Edition section*/
+.limited{
 
+    background-position:cover;
+}
 
+.limited-content{
+    width:90%;
+}
+/*start Best Sellers section */
+.col-3{
+    width:50%;
+}
+
+.hov-img,.add-cart{
+    padding: 1.5px;
+   box-sizing: border-box;
+  }
 }
 
 @media (max-width:767px) {
@@ -93,7 +114,29 @@
     /*#### start footer ####*/
 
     /*#### end footer ####*/
+/*Shop Limited Edition section*/
+.limited{
 
+    background-position:cover;
+}
+
+.limited span{
+    font-size: 40px;
+}
+.limited p{
+
+  font-size: 20px;
+  line-height:25px;
+}
+.limited-content {
+    width: 70%;
+
+}
+
+.hov-img,.add-cart{
+    padding: 1.5px;
+   box-sizing: border-box;
+  }
 
 }
 
@@ -124,4 +167,51 @@
         padding-left: 1.25rem;
         padding-right: 4rem;
     }
+    /*Shop Limited Edition section*/
+.limited{
+
+    background-position:cover;
+}
+
+.limited span{
+    font-size: 30px;
+}
+.limited p{
+
+  font-size: 20px;
+  line-height:25px;
+}
+.limited-content {
+    width: 80%;
+
+}
+.hov-img,.add-cart{
+    padding: 1.2px;
+   box-sizing: border-box;
+  }
+}
+@media(max-width:488px) {
+    .limited-content {
+        width:100%;
+    
+    }  
+    .limited p{
+
+        font-size: 15px;
+        line-height:20px;
+      }
+      .btn1,.btn2{
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+      .col-3{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+  .hov-img,.add-cart{
+    padding: 1.5px;
+   box-sizing: border-box;
+  }
 }
