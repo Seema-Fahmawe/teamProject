@@ -52,9 +52,11 @@
     .part2-header .homeShop .item:last-child p {
         left: 6%;
     }
-    .part2-header .homeShop .item p{
-        left:25%;
+
+    .part2-header .homeShop .item p {
+        left: 25%;
     }
+
     /*#### end header ####*/
 
 
@@ -75,7 +77,11 @@
     }
 
     header .carousel-item img {
-        width: 115% !important;
+        width: 118% !important;
+    }
+
+    header .carousel-inner .carousel-item .carousel-caption {
+        top: 30px;
     }
 
     /*#### end header ####*/
@@ -83,13 +89,16 @@
         margin: 10px 30px;
 
     }
+
     .part2-header .homeShop .item:first-child p,
     .part2-header .homeShop .item:last-child p {
-        left:25%;
+        left: 25%;
     }
-    .part2-header .homeShop .item p{
-        left:35%;
+
+    .part2-header .homeShop .item p {
+        left: 35%;
     }
+
     /*#### start footer ####*/
 
     /*#### end footer ####*/
@@ -115,13 +124,42 @@
         padding: 0 15px;
     }
 
+    footer .container-fluid {
+        padding-left: 1.25rem;
+        padding-right: 4rem;
+    }
+}
+
+
+
+@media (max-width:490px) {
     header .carousel-item img {
         width: 150% !important;
     }
 
+    header .carousel-caption {
+        width: 86%;
+    }
+}
 
-    footer .container-fluid {
-        padding-left: 1.25rem;
-        padding-right: 4rem;
+@media(max-width:390px) {
+    header .carousel-inner .carousel-item h2 {
+        font-size: 30px;
+    }
+
+    header .carousel-caption {
+        width: 75%;
+    }
+
+    header .carousel-caption h3 .br {
+        display: none;
+    }
+
+    header .carousel-item .header-button {
+        margin-top: -30px !important;
+    }
+
+    header .carousel-indicators {
+        opacity: 0;
     }
 }

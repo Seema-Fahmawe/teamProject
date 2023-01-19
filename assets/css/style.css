@@ -66,9 +66,11 @@
 /*#### end navbar ####*/
 
 /*#### start header ####*/
+
 header .carousel-inner .carousel-item .carousel-caption {
     position: absolute;
     top: 100px;
+
 }
 
 header .carousel-inner .carousel-item h2 {
@@ -79,7 +81,11 @@ header .carousel-inner .carousel-item h2 {
     text-align: left;
     font-weight: 600;
     font-family: Poppins, sans-serif;
+    animation-duration: 0.5s;
+}
 
+header .carousel-inner .carousel-item:nth-child(1) h3 {
+    animation-delay: 2.5s;
 }
 
 header .carousel-inner .carousel-item h3 {
@@ -89,8 +95,13 @@ header .carousel-inner .carousel-item h3 {
     text-align: left;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
+    animation-delay: 1.5s;
+    animation-duration: 0.5s;
 }
 
+header .carousel-inner .carousel-item .header-button {
+    animation-duration: 0.5s;
+}
 
 header .carousel-inner .carousel-item a {
     margin: 35px 5px 0 0;
@@ -158,6 +169,59 @@ header .carousel-control-next:hover {
     transition: 0.5s;
 }
 
+header {
+    position: relative;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.loader {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    background-image:
+        linear-gradient(#FFF 16px, transparent 0),
+        linear-gradient(#0cc3ce 16px, transparent 0),
+        linear-gradient(#0cc3ce 16px, transparent 0),
+        linear-gradient(#FFF 16px, transparent 0);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left top, left bottom, right top, right bottom;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        width: 64px;
+        height: 64px;
+        transform: rotate(0deg)
+    }
+
+    50% {
+        width: 30px;
+        height: 30px;
+        transform: rotate(180deg)
+    }
+
+    100% {
+        width: 64px;
+        height: 64px;
+        transform: rotate(360deg)
+    }
+}
+
+/*#### end header ####*/
+
+/*#### part2-header ####*/
 .part2-header .homeShop .item {
     margin: 10px 0;
     overflow: hidden;
@@ -215,17 +279,7 @@ header .carousel-control-next:hover {
 
 }
 
-
-
-
-/*@keyframes AnimHeader {
-    to {
-        transform: translateY(0);
-    }
-}
-
-
-/*#### end header ####*/
+/*#### part2-header ####*/
 
 /*#### start footer ####*/
 footer .logo {
@@ -309,6 +363,10 @@ footer .row .col-lg-3:nth-child(2) a,
 footer .row .col-lg-3:nth-child(2) p,
 footer .row .col-lg-3:nth-child(3) p {
     color: #fff;
+}
+
+footer .row .col-lg-3:nth-child(4) .footer-item {
+    cursor: pointer;
 }
 
 footer .row .col-lg-3:nth-child(4) .footer-item::after {
@@ -399,6 +457,10 @@ footer .col-lg-3:nth-child(4) .btn:hover {
 
 footer .footer-image img {
     width: 112% !important;
+}
+
+footer .form-control {
+    color: #fff !important;
 }
 
 /*#### end footer ####*/
