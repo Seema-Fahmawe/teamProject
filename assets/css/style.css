@@ -413,12 +413,12 @@ a{
 
 }
 .newProduct span ,.sellers span{
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500 ;
 color: #101010;;
 
 }
-h3{
+.newProduct h3,.sellers h3{
     font-size: 23px;
     color: #101010;
     font-weight: 600;
