@@ -559,13 +559,13 @@ color: #101010;;
 }
 /*######################################## end Hiba Sections ########################################################*/
 /* israa section */
-.header{
+.about{
     height: 445px;
     background-image: url(../../assets/image/about/header.jpg);
     background-position: -293px -4px;
     
 }
-.header h1{
+.about h1{
     color:white;
     font-size: 72px;
 margin: auto;
@@ -575,7 +575,7 @@ text-align: center;
 padding-top: 165px;
 
 }
-body {
+.iconn {
     font-family: 'Open Sans',sans-serif;
     font-size: 13px;
     line-height: 26px;
@@ -585,17 +585,8 @@ body {
     overflow-x: hidden!important;
     -webkit-font-smoothing: antialiased;
 }
-.section{
-    text-align: center;
-    height: 219.5px;
-    background-color:#f9f9f9;
 
-}
-.section1{
-    width: 1100px;
-    height: 37.5px;
-    text-align: center;
-}
+
 h2{
 
         font-size: 30px;
@@ -606,10 +597,9 @@ h2{
         color: #101010;
 
 }
-h1,  h3, h5, h6 {
+ h6 {
     color: #101010;
-font-size: 15px;}
-    h6{
+font-size: 15px;
 padding-top: 20px;
 text-align: center;
     }
@@ -625,7 +615,5 @@ text-align: center;
     height: 459px;
     
 }
-p{
-    text-align: center;
-}
+
 /*end israa */
