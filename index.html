@@ -2,201 +2,215 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- link Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <!-- link frontawesome -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- frontawesome -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
 
-    <!-- link style.css-->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- wow and animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- link media.css-->
-    <link rel="stylesheet" href="assets/css/media.css">
+  <!--  style.css-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--  media.css-->
+  <link rel="stylesheet" href="assets/css/media.css">
 
 
 </head>
 
 <body>
-    <!--##### start navbar #####-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid ms-4 me-4">
-            <a class="navbar-brand" href="#"><img src="assets/image/logo-dark.png"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<!--##### start navbar #####-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid ms-4 me-4">
+      <a class="navbar-brand" href="#"><img src="assets/image/logo-dark.png"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 me-4">
+              <li class="nav-item  ">
+                  <a class="nav-link active position-relative" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link position-relative" href="#">Portfolio</a>
+              </li>
+
+              <li class="nav-item ">
+                  <a class="nav-link position-relative" href="#">Products</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link position-relative" href="#">Login</a>
+              </li>
+
+          </ul>
+      </div>
+      <a class="link position-relative" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+  </div>
+
+</nav>
+<!--##### end navbar #####-->
+
+  <!--##### start header #####-->
+
+  <header class="header">
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide position-relative" id="carousel">
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active "
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active  position-relative">
+                    <img src="assets/image/header image/Home-Shop-Slider-1.jpg" class="w-100 "
+                        alt="Home-Shop-Slider-1">
+                    <div class="carousel-caption ">
+                        <h2 class="animate__animated animate__fadeInUp animate__delay-2s">Mid Season Sale.</h2>
+                        <h3 class="animate__animated animate__fadeInUp ">Stock up on sportswear and limited edition
+                            collections on our<br class="br">awesome
+                            mid-season
+                            sale.</h3>
+                        <div class="header-button text-start animate__animated animate__fadeInUp animate__delay-3s">
+                            <a href="#" class="btn findMore ">Find Out More</a>
+                            <a href="#" class="btn shop">Shop The Sale</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="assets/image/header image/Home-Shop-Slider-2.jpg" class="w-100"
+                        alt="Home-Shop-Slider-2">
+                    <div class="carousel-caption ">
+                        <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Best Sellers.</h2>
+                        <h3 class="animate__animated animate__fadeInUp">Stock up on sportswear and limited edition
+                            collections on
+                            our<br>awesome mid-season
+                            sale.</h3>
+                        <div class="header-button text-start animate__animated animate__fadeInUp animate__delay-2s">
+                            <a href="#" class="btn findMore ">Find Out More</a>
+                            <a href="#" class="btn shop">Shop The Sale</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="assets/image/header image/Home-Shop-Slider-3.jpg" class="w-100"
+                        alt="Home-Shop-Slider-3">
+                    <div class="carousel-caption ">
+                        <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Outwear Picks.</h2>
+                        <h3 class="animate__animated animate__fadeInUp">Stock up on sportswear and limited edition
+                            collections on
+                            our<br>awesome mid-season
+                            sale.</h3>
+                        <div class="header-button text-start animate__animated animate__fadeInUp animate__delay-2s">
+                            <a href="#" class="btn findMore ">Find Out More</a>
+                            <a href="#" class="btn shop">Shop The Sale</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="assets/image/header image/Home-Shop-Slider-4.jpg" class="w-100"
+                        alt="Home-Shop-Slider-4">
+                    <div class="carousel-caption ">
+                        <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Seasonal Offers.</h2>
+                        <h3 class="animate__animated animate__fadeInUp">Stock up on sportswear and limited edition
+                            collections on
+                            our<br>awesome mid-season
+                            sale.</h3>
+                        <div class="header-button text-start animate__animated animate__fadeInUp animate__delay-2s">
+                            <a href="#" class="btn findMore ">Find Out More</a>
+                            <a href="#" class="btn shop">Shop The Sale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 me-4">
-                    <li class="nav-item  ">
-                        <a class="nav-link active position-relative" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link position-relative" href="#">Portfolio</a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a class="nav-link position-relative" href="#">Products</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link position-relative" href="#">Login</a>
-                    </li>
-
-                </ul>
-            </div>
-            <a class="link position-relative" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+    </div>
+</header>
 
-    </nav>
-    <!--##### end navbar #####-->
-
-    <!--##### start header #####-->
-
-    <header>
-        <div id="carouselExampleCaptions" class="carousel slide" id="carousel">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-
+<!--##### end header #####-->
+<div class="part2-header">
+    <div class="homeShop py-4 ">
+        <div class="container-fluid ">
+            <div class="row flex-md-nowrap  ms-3  row-cols-md-5  gap-3 ">
+                <div class="item position-relative ">
+                    <a href="#"> <img src="assets/image/header image/home-shop-1-image-1.jpg"
+                            alt="home-shop-1-image-1" class="w-100 ">
+                        <p>Sportswear </p>
+                    </a>
                 </div>
-                <div class="carousel-inner ">
-
-                    <div class="carousel-item active  position-relative">
-                        <img src="assets/image/header image/Home-Shop-Slider-1.jpg" class="d-block w-100"
-                            alt="Home-Shop-Slider-1">
-                        <div class="carousel-caption caption">
-                            <h2>Mid Season Sale.</h2>
-                            <h3>Stock up on sportswear and limited edition collections on our<br>awesome mid-season
-                                sale.</h3>
-                            <div class="header-button text-start">
-                                <a href="#" class="btn findMore ">Find Out More</a>
-                                <a href="#" class="btn shop">Shop The Sale</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item position-relative">
-                        <img src="assets/image/header image/Home-Shop-Slider-2.jpg" class="d-block w-100"
-                            alt="Home-Shop-Slider-2">
-                        <div class="carousel-caption caption">
-                            <h2>Best Sellers.</h2>
-                            <h3>Stock up on sportswear and limited edition collections on our<br>awesome mid-season
-                                sale.</h3>
-                            <div class="header-button text-start">
-                                <a href="#" class="btn findMore ">Find Out More</a>
-                                <a href="#" class="btn shop">Shop The Sale</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item position-relative">
-                        <img src="assets/image/header image/Home-Shop-Slider-3.jpg" class="d-block w-100"
-                            alt="Home-Shop-Slider-3">
-                        <div class="carousel-caption caption">
-                            <h2>Outwear Picks.</h2>
-                            <h3>Stock up on sportswear and limited edition collections on our<br>awesome mid-season
-                                sale.</h3>
-                            <div class="header-button text-start">
-                                <a href="#" class="btn findMore ">Find Out More</a>
-                                <a href="#" class="btn shop">Shop The Sale</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item position-relative">
-                        <img src="assets/image/header image/Home-Shop-Slider-4.jpg" class="d-block w-100"
-                            alt="Home-Shop-Slider-4">
-                        <div class="carousel-caption caption">
-                            <h2>Seasonal Offers.</h2>
-                            <h3>Stock up on sportswear and limited edition collections on our<br>awesome mid-season
-                                sale.</h3>
-                            <div class="header-button text-start">
-                                <a href="#" class="btn findMore ">Find Out More</a>
-                                <a href="#" class="btn shop">Shop The Sale</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="item position-relative">
+                    <a href="#"> <img src="assets/image/header image/home-shop-1-image-2.jpg"
+                            alt="home-shop-1-image-2" class="w-100">
+                        <p> Women </p>
+                    </a>
                 </div>
-                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </header>
 
-    <!--##### end header #####-->
-    <section class="part2-header">
-        <div class="homeShop py-4 ">
-            <div class="container-fluid ">
-                <div class="row flex-md-nowrap  ms-3  row-cols-md-5  gap-3 ">
-                    <div class="item position-relative ">
-                        <a href="#"> <img src="assets/image/header image/home-shop-1-image-1.jpg"
-                                alt="home-shop-1-image-1" class="w-100 ">
-                            <p>Sportswear </p>
-                        </a>
-                    </div>
-                    <div class="item position-relative">
-                        <a href="#"> <img src="assets/image/header image/home-shop-1-image-2.jpg"
-                                alt="home-shop-1-image-2" class="w-100">
-                            <p> Women </p>
-                        </a>
-                    </div>
+                <div class="item position-relative">
+                    <a href="#"> <img src="assets/image/header image/home-shop-1-image-3.jpg"
+                            alt="home-shop-1-image-3" class="w-100">
+                        <p> Men </p>
+                    </a>
+                </div>
 
-                    <div class="item position-relative">
-                        <a href="#"> <img src="assets/image/header image/home-shop-1-image-3.jpg"
-                                alt="home-shop-1-image-3" class="w-100">
-                            <p> Men </p>
-                        </a>
-                    </div>
+                <div class="item position-relative">
+                    <a href="#"> <img src="assets/image/header image/home-shop-1-image-4.jpg"
+                            alt="home-shop-1-image-4" class="w-100">
+                        <p> Shoes </p>
+                    </a>
+                </div>
 
-                    <div class="item position-relative">
-                        <a href="#"> <img src="assets/image/header image/home-shop-1-image-4.jpg"
-                                alt="home-shop-1-image-4" class="w-100">
-                            <p> Shoes </p>
-                        </a>
-                    </div>
-
-                    <div class="item position-relative">
-                        <a href="#"> <img src="assets/image/header image/home-shop-1-image-5.jpg"
-                                alt="home-shop-1-image-5" class="w-100">
-                            <p> Accessories </p>
-                        </a>
-                    </div>
+                <div class="item position-relative">
+                    <a href="#"> <img src="assets/image/header image/home-shop-1-image-5.jpg"
+                            alt="home-shop-1-image-5" class="w-100">
+                        <p> Accessories </p>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
-<!--    ############################ Hiba Sections ############################################ -->
+    </div>
+</div>
+  <!--    ############################ Hiba Sections ############################################ -->
 
-     <!-- start New Products section -->
+  <!-- start New Products section -->
   <section class="newProduct pt-5">
     <div class="container">
       <span>New Products</span>
       <h3>Shop The New Collection</h3>
-       <!-- slider -->
-   
-      </div> 
+      <!-- slider -->
+
+    </div>
   </section>
-   <!-- start Shop Limited Edition section -->
-   <section class="limited d-flex justify-content-center align-items-center text-center">
+  <!-- start Shop Limited Edition section -->
+  <section class="limited d-flex justify-content-center align-items-center text-center">
     <div class="limited-content ">
       <span>Shop Limited Edition.</span>
       <p class="py-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
@@ -208,406 +222,407 @@
   </section>
 
   <!-- end Shop Limited Edition section -->
-    <!-- start Best Sellers section -->
-    <section class="sellers py-5 ">
-        <div class="container ">
-          <span>Best Sellers</span>
-          <h3 class="pb-5">Browse Through Our Best Selleres</h3>
-          <div class="row">
-            <div class="col-3 text-start">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/1.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/1hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around">Men, Shoes, Sportswear <i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Black Skater Sneaker</h5>
-                <p>$85.00</p>
-              </div>
+  <!-- start Best Sellers section -->
+  <section class="sellers py-5 ">
+    <div class="container ">
+      <span>Best Sellers</span>
+      <h3 class="pb-5">Browse Through Our Best Selleres</h3>
+      <div class="row">
+        <div class="col-3 text-start">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/1.jpg" alt="" class="  w-100 pb-2" />
             </div>
-    
-            <div class="col-3 text-start">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/2hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/2.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around ">Accessories, New Collection, Women <i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Cream Tote Bag</h5>
-                <p>$35.00</p>
-              </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/1hov.jpg" alt="" class="  w-100 pb-2" />
             </div>
-            <div class="col-3 text-start">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/3.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/3hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around">New Collection, Sportswear, Women <i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Futura Jumper</h5>
-                <p>$135.00</p>
-              </div>
-            </div>
-            <div class="col-3 text-start">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/4.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/4hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around">Sportswear, Women<i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Heather Grey Sweatsuit</h5>
-                <p>$90.00</p>
-              </div>
-            </div>
-            <div class="col-3 text-start pt-4">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/5.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/5hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around">Men, Shoes, Sportswear <i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Leopard Print Sneaker</h5>
-                <p>$185.00</p>
-              </div>
-            </div>
-            <div class="col-3 text-start pt-4">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/6.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/6hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around">New Collection, Shoes, Women<i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Leopard Print Sandal</h5>
-                <p>$215.00</p>
-              </div>
-            </div>
-            <div class="col-3 text-start pt-4">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/7.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/7hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around">Men, New Collection, Sportswear <i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Grey Wool Sweater</h5>
-                <p><span class="text-dark text-decoration-line-through" >$75.00</span><span class="text-decoration-underline text-dark ps-1">$60.00</span></p>
-              </div>
-            </div>
-            <div class="col-3 text-start pt-4">
-    
-              <div class="hov">
-                <div class="fir-img ">
-    
-                  <img src="assets/image/HibaImages/sellers/8.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="hov-img">
-                  <img src="assets/image/HibaImages/sellers/8hov.jpg" alt="" class="  w-100 pb-2" />
-                </div>
-                <div class="add-cart">
-    
-                  <a href="#" class="cart1"><span>Add to cart</span></a>
-                  <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-              </div>
-    
-              <div class="sel-content  ">
-                <span class=" d-flex justify-content-around">New Collection, Sportswear, Women<i
-                    class="fa-regular fa-heart ms-auto "></i></span>
-                <h5 class="pt-2">Navy Blue Winter Jacket</h5>
-                <p>$335.00</p>
-              </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
             </div>
           </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around">Men, Shoes, Sportswear <i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Black Skater Sneaker</h5>
+            <p>$85.00</p>
+          </div>
         </div>
+
+        <div class="col-3 text-start">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/2hov.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/2.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around ">Accessories, New Collection, Women <i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Cream Tote Bag</h5>
+            <p>$35.00</p>
+          </div>
         </div>
-      </section>
-      <!-- end Best Sellers  section -->
+        <div class="col-3 text-start">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/3.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/3hov.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around">New Collection, Sportswear, Women <i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Futura Jumper</h5>
+            <p>$135.00</p>
+          </div>
+        </div>
+        <div class="col-3 text-start">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/4.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/4hov.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around">Sportswear, Women<i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Heather Grey Sweatsuit</h5>
+            <p>$90.00</p>
+          </div>
+        </div>
+        <div class="col-3 text-start pt-4">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/5.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/5hov.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around">Men, Shoes, Sportswear <i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Leopard Print Sneaker</h5>
+            <p>$185.00</p>
+          </div>
+        </div>
+        <div class="col-3 text-start pt-4">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/6.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/6hov.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around">New Collection, Shoes, Women<i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Leopard Print Sandal</h5>
+            <p>$215.00</p>
+          </div>
+        </div>
+        <div class="col-3 text-start pt-4">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/7.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/7hov.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around">Men, New Collection, Sportswear <i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Grey Wool Sweater</h5>
+            <p><span class="text-dark text-decoration-line-through">$75.00</span><span
+                class="text-decoration-underline text-dark ps-1">$60.00</span></p>
+          </div>
+        </div>
+        <div class="col-3 text-start pt-4">
+
+          <div class="hov">
+            <div class="fir-img ">
+
+              <img src="assets/image/HibaImages/sellers/8.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="hov-img">
+              <img src="assets/image/HibaImages/sellers/8hov.jpg" alt="" class="  w-100 pb-2" />
+            </div>
+            <div class="add-cart">
+
+              <a href="#" class="cart1"><span>Add to cart</span></a>
+              <a href="#" class="cart2"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+          <div class="sel-content  ">
+            <span class=" d-flex justify-content-around">New Collection, Sportswear, Women<i
+                class="fa-regular fa-heart ms-auto "></i></span>
+            <h5 class="pt-2">Navy Blue Winter Jacket</h5>
+            <p>$335.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- end Best Sellers  section -->
   <!-- end New Products section -->
   <!-- ##### ##### ##### ##### ##### ##### end Hiba sections ##### ##### ##### ##### ##### ##### #####  -->
 
   <!--iSraa section -->
   <div class="about">
-           
+
     <h1>
       <span> About Us </span>
-    
-      </h1>
-  </div>
-  
-      <div class="container">
-        <div class="iconn">
-          <div class="row">
-            <div class="col-sm">
-              <i class="fa-solid fa-cart-shopping" style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
-        <h6>WooCommerce</h6>
-        <div class="picon">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
-        <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
-           </div>
-            </div>
-            <div class="col-sm">
-              <i class="fa-solid fa-laptop " style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
-              <h6>Fully Responsive</h6>
-              <div class="picon">
-                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
-                <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
-              </div>
-             
-            </div>
-            <div class="col-sm">
-              <i class="fa-solid fa-earth-americas"  style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
-              <h6>SEO Optimized</h6>
-              <div class="picon">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
-              <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
 
-              </div>
-            </div>
-            <div class="col-sm">
-              <i class="fa-solid fa-wand-magic-sparkles"  style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
-              <h6> Trendy Design</h6>
-              <div class="picon">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>  
-              <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
- 
-              </div>           
-            </div>
+    </h1>
+  </div>
+
+  <div class="container">
+    <div class="iconn">
+      <div class="row">
+        <div class="col-sm">
+          <i class="fa-solid fa-cart-shopping" style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
+          <h6>WooCommerce</h6>
+          <div class="picon">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+            <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
           </div>
         </div>
-        
+        <div class="col-sm">
+          <i class="fa-solid fa-laptop " style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
+          <h6>Fully Responsive</h6>
+          <div class="picon">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+            <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
+          </div>
+
+        </div>
+        <div class="col-sm">
+          <i class="fa-solid fa-earth-americas" style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
+          <h6>SEO Optimized</h6>
+          <div class="picon">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+            <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
+
+          </div>
+        </div>
+        <div class="col-sm">
+          <i class="fa-solid fa-wand-magic-sparkles" style="color: #aaaaaa;font-size:72px ; padding-left: 90px;"></i>
+          <h6> Trendy Design</h6>
+          <div class="picon">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+            <a class="qodef-iwt-link" href="#" target="_self">FIND OUT MORE</a>
+
+          </div>
+        </div>
       </div>
+    </div>
+
+  </div>
   <!--end israa -->
 
 
 
-    <!--##### start footer #####-->
-    <footer>
-        <div class="container-fluid  py-5 ">
-            <div class="row ">
-                <div class="col-sm-12 col-md-6 col-lg-3  ">
-                    <img src="assets/image/logo-light.png" class="logo">
-                    <p class="desc"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                        euismod
-                        tincidunt ut laoreet.</p>
-                    <p class="desc mb-5"> 198 West 21th Street, Suite 721, New York NY 10010 <br>
-                        Email:suprema@qodeinteractive.com <br>Phone: +88 (0) 101 0000 000<br>Fax: +88 (0) 202 0000 001
-                    </p>
+  <!--##### start footer #####-->
+  <footer>
+    <div class="container-fluid  py-5 ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-6 col-lg-3  ">
+          <img src="assets/image/logo-light.png" class="logo">
+          <p class="desc"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod
+            tincidunt ut laoreet.</p>
+          <p class="desc mb-5"> 198 West 21th Street, Suite 721, New York NY 10010 <br>
+            Email:suprema@qodeinteractive.com <br>Phone: +88 (0) 101 0000 000<br>Fax: +88 (0) 202 0000 001
+          </p>
 
-                    <div class="d-flex gap-3 ground-light">
+          <div class="d-flex gap-3 ground-light">
 
-                        <div class="icon">
-                            <div class="d-flex flex-column gap-1">
-                                <a href="#"> <i class="fa-brands fa-facebook-f icon1"></i></a>
-                                <a href="#"> <i class="fa-brands fa-facebook-f icon2 "></i></a>
-                            </div>
-                        </div>
-
-                        <div class="icon">
-                            <div class="d-flex flex-column gap-1">
-                                <a href="#"> <i class="fa-brands fa-twitter icon1"></i></a>
-                                <a href="#"> <i class="fa-brands fa-twitter icon2"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="icon">
-                            <div class="d-flex flex-column gap-1">
-                                <a href="#"> <i class="fa-brands fa-dribbble icon1"></i></a>
-                                <a href="#"> <i class="fa-brands fa-dribbble icon2"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="icon">
-                            <div class="d-flex flex-column gap-1">
-                                <a href="#"> <i class="fa-brands fa-vimeo-v icon1"></i></a>
-                                <a href="#"> <i class="fa-brands fa-vimeo-v icon2"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="icon">
-                            <div class="d-flex flex-column gap-1">
-                                <a href="#"> <i class="fa-brands fa-instagram icon1"></i></a>
-                                <a href="#"> <i class="fa-brands fa-instagram icon2"></i></a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <h4 class="title">Latest Posts</h4>
-                    <h4 class="posts"> <a href="" class="text-decoration-none">Where Music Is Headed Next </a></h4>
-                    <p class="mb-4 date">February 12, 2016</p>
-                    <h4 class="posts"> <a href="" class="text-decoration-none"> Sports Brand New Advertising Campaign
-                        </a></h4>
-                    <p class="mb-4 date">February 12, 2016</p>
-                    <h4 class="posts"><a href="" class="text-decoration-none"> Snippets From The Tech Mobile Conference
-                        </a> </h4>
-                    <p class="mb-4 date">February 12, 2016</p>
-                    <h4 class="posts"><a href="" class="text-decoration-none">New Music Video Will Blow Your Mind</a>
-                    </h4>
-                    <p class="mb-4 date">February 12, 2016</p>
-                </div>
-
-
-                <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <h4 class="title">Twitter Feed</h4>
-                    <p>Couldn't connect with Twitter </p>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3  position-relative">
-                    <h4 class="title">Instagram Feed </h4>
-                    <div class="d-flex row-cols-5 gap-2 ">
-                        <div class="footer-item position-relative">
-                            <a href="#"><img
-                                    src="assets/image/footerImage/43014433_555847148170483_1439512256660589311_n.jpg"
-                                    alt="image Instagram Feed " class="w-100"></a>
-                        </div>
-                        <div class="footer-item position-relative">
-                            <a href="#"><img
-                                    src="assets/image/footerImage/42138627_683440648695506_1611128056367001600_n.jpg"
-                                    alt="image Instagram Feed " class="w-100"></a>
-                        </div>
-                        <div class="footer-item position-relative">
-                            <a href="#"><img
-                                    src="assets/image/footerImage/42473423_277878343062471_5345212305652247904_n.jpg"
-                                    alt="image Instagram Feed " class="w-100"></a>
-                        </div>
-                        <div class="footer-item position-relative">
-                            <a href="#"><img
-                                    src="assets/image/footerImage/43778629_307601923388369_8670746155294819557_n.jpg"
-                                    alt="image Instagram Feed " class="w-100"></a>
-                        </div>
-                        <div class="footer-item position-relative">
-                            <a href="#"><img
-                                    src="assets/image/footerImage/43578336_2109702579322883_5541165108336634213_n.jpg"
-                                    alt="image Instagram Feed " class="w-100"></a>
-                        </div>
-                    </div>
-                    <form>
-                        <div class="email d-flex flex-nowrap mt-5 row-cols-2 position-relative">
-                            <label for="exampleFormControlInput1" class="form-label">Subscribe to our
-                                newsletter, get
-                                10% off:</label>
-                            <div class="input-group ">
-                                <input type="text" class="form-control" placeholder="E-mail"
-                                    aria-label="Recipient's username" aria-describedby="button-addon2">
-                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
-                                        class="fa-solid fa-chevron-right"></i></button>
-                            </div>
-                        </div>
-                    </form>
-
-                    <div class="footer-image mt-5">
-                        <img src="assets/image/footerImage/footer-image.png">
-                    </div>
-
-                </div>
+            <div class="icon">
+              <div class="d-flex flex-column gap-1">
+                <a href="#"> <i class="fa-brands fa-facebook-f icon1"></i></a>
+                <a href="#"> <i class="fa-brands fa-facebook-f icon2 "></i></a>
+              </div>
             </div>
+
+            <div class="icon">
+              <div class="d-flex flex-column gap-1">
+                <a href="#"> <i class="fa-brands fa-twitter icon1"></i></a>
+                <a href="#"> <i class="fa-brands fa-twitter icon2"></i></a>
+              </div>
+            </div>
+
+            <div class="icon">
+              <div class="d-flex flex-column gap-1">
+                <a href="#"> <i class="fa-brands fa-dribbble icon1"></i></a>
+                <a href="#"> <i class="fa-brands fa-dribbble icon2"></i></a>
+              </div>
+            </div>
+
+            <div class="icon">
+              <div class="d-flex flex-column gap-1">
+                <a href="#"> <i class="fa-brands fa-vimeo-v icon1"></i></a>
+                <a href="#"> <i class="fa-brands fa-vimeo-v icon2"></i></a>
+              </div>
+            </div>
+
+            <div class="icon">
+              <div class="d-flex flex-column gap-1">
+                <a href="#"> <i class="fa-brands fa-instagram icon1"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram icon2"></i></a>
+              </div>
+            </div>
+
+          </div>
         </div>
-    </footer>
-    <!--##### end footer #####-->
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <h4 class="title">Latest Posts</h4>
+          <h4 class="posts"> <a href="" class="text-decoration-none">Where Music Is Headed Next </a></h4>
+          <p class="mb-4 date">February 12, 2016</p>
+          <h4 class="posts"> <a href="" class="text-decoration-none"> Sports Brand New Advertising Campaign
+            </a></h4>
+          <p class="mb-4 date">February 12, 2016</p>
+          <h4 class="posts"><a href="" class="text-decoration-none"> Snippets From The Tech Mobile Conference
+            </a> </h4>
+          <p class="mb-4 date">February 12, 2016</p>
+          <h4 class="posts"><a href="" class="text-decoration-none">New Music Video Will Blow Your Mind</a>
+          </h4>
+          <p class="mb-4 date">February 12, 2016</p>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <h4 class="title">Twitter Feed</h4>
+          <p>Couldn't connect with Twitter </p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3  position-relative">
+          <h4 class="title">Instagram Feed </h4>
+          <div class="d-flex row-cols-5 gap-2 ">
+            <div class="footer-item position-relative">
+              <a href="#"><img src="assets/image/footerImage/43014433_555847148170483_1439512256660589311_n.jpg"
+                  alt="image Instagram Feed " class="w-100"></a>
+            </div>
+            <div class="footer-item position-relative">
+              <a href="#"><img src="assets/image/footerImage/42138627_683440648695506_1611128056367001600_n.jpg"
+                  alt="image Instagram Feed " class="w-100"></a>
+            </div>
+            <div class="footer-item position-relative">
+              <a href="#"><img src="assets/image/footerImage/42473423_277878343062471_5345212305652247904_n.jpg"
+                  alt="image Instagram Feed " class="w-100"></a>
+            </div>
+            <div class="footer-item position-relative">
+              <a href="#"><img src="assets/image/footerImage/43778629_307601923388369_8670746155294819557_n.jpg"
+                  alt="image Instagram Feed " class="w-100"></a>
+            </div>
+            <div class="footer-item position-relative">
+              <a href="#"><img src="assets/image/footerImage/43578336_2109702579322883_5541165108336634213_n.jpg"
+                  alt="image Instagram Feed " class="w-100"></a>
+            </div>
+          </div>
+          <form>
+            <div class="email d-flex flex-nowrap mt-5 row-cols-2 position-relative">
+              <label for="exampleFormControlInput1" class="form-label">Subscribe to our
+                newsletter, get
+                10% off:</label>
+              <div class="input-group ">
+                <input type="text" class="form-control" placeholder="E-mail" aria-label="Recipient's username"
+                  aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                    class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </form>
+
+          <div class="footer-image mt-5">
+            <img src="assets/image/footerImage/footer-image.png">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--##### end footer #####-->
 
 
 
 
 
 
-    <!-- link Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+  <!--  Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
-    <!-- link script-->
-    <script src="assets/script.js"></script>
+
+  <!-- wow and animate-->
+  <script src="external/wow.min.js"></script>
+  <script> new WOW().init();</script>
+
+  <!-- main script-->
+  <script src="assets/script.js"></script>
 
 </body>
 

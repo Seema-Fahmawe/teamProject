@@ -66,9 +66,11 @@
 /*#### end navbar ####*/
 
 /*#### start header ####*/
+
 header .carousel-inner .carousel-item .carousel-caption {
     position: absolute;
     top: 100px;
+
 }
 
 header .carousel-inner .carousel-item h2 {
@@ -79,7 +81,11 @@ header .carousel-inner .carousel-item h2 {
     text-align: left;
     font-weight: 600;
     font-family: Poppins, sans-serif;
+    animation-duration: 0.5s;
+}
 
+header .carousel-inner .carousel-item:nth-child(1) h3 {
+    animation-delay: 2.5s;
 }
 
 header .carousel-inner .carousel-item h3 {
@@ -89,8 +95,13 @@ header .carousel-inner .carousel-item h3 {
     text-align: left;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
+    animation-delay: 1.5s;
+    animation-duration: 0.5s;
 }
 
+header .carousel-inner .carousel-item .header-button {
+    animation-duration: 0.5s;
+}
 
 header .carousel-inner .carousel-item a {
     margin: 35px 5px 0 0;
@@ -158,6 +169,59 @@ header .carousel-control-next:hover {
     transition: 0.5s;
 }
 
+header {
+    position: relative;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.loader {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    background-image:
+        linear-gradient(#FFF 16px, transparent 0),
+        linear-gradient(#0cc3ce 16px, transparent 0),
+        linear-gradient(#0cc3ce 16px, transparent 0),
+        linear-gradient(#FFF 16px, transparent 0);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left top, left bottom, right top, right bottom;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        width: 64px;
+        height: 64px;
+        transform: rotate(0deg)
+    }
+
+    50% {
+        width: 30px;
+        height: 30px;
+        transform: rotate(180deg)
+    }
+
+    100% {
+        width: 64px;
+        height: 64px;
+        transform: rotate(360deg)
+    }
+}
+
+/*#### end header ####*/
+
+/*#### part2-header ####*/
 .part2-header .homeShop .item {
     margin: 10px 0;
     overflow: hidden;
@@ -212,19 +276,9 @@ header .carousel-control-next:hover {
     z-index: 999;
     transition-delay: 0.2s;
     transition-duration: 1s;
-
 }
 
-
-
-
-/*@keyframes AnimHeader {
-    to {
-        transform: translateY(0);
-    }
-}
-
-
+/*#### part2-header ####*/
 /*#### end header ####*/
 
 /*#### start footer ####*/
@@ -309,6 +363,10 @@ footer .row .col-lg-3:nth-child(2) a,
 footer .row .col-lg-3:nth-child(2) p,
 footer .row .col-lg-3:nth-child(3) p {
     color: #fff;
+}
+
+footer .row .col-lg-3:nth-child(4) .footer-item {
+    cursor: pointer;
 }
 
 footer .row .col-lg-3:nth-child(4) .footer-item::after {
@@ -401,24 +459,34 @@ footer .footer-image img {
     width: 112% !important;
 }
 
+footer .form-control {
+    color: #fff !important;
+}
+
 /*#### end footer ####*/
 /*############################ Hiba Sections ############################################*/
-a{
+a {
     text-decoration: none;
 }
-.newProduct{
-    
+
+.newProduct {
+
     text-align: center;
     height: 75vh;
 
 }
-.newProduct span ,.sellers span{
+
+.newProduct span,
+.sellers span {
     font-size: 18px;
-    font-weight: 500 ;
-color: #101010;;
+    font-weight: 500;
+    color: #101010;
+    ;
 
 }
-.newProduct h3,.sellers h3{
+
+.newProduct h3,
+.sellers h3 {
     font-size: 23px;
     color: #101010;
     font-weight: 600;
@@ -426,194 +494,222 @@ color: #101010;;
 }
 
 /*Shop Limited Edition section*/
-.limited{
+.limited {
     height: 65vh;
     background-image: url('../image/HibaImages/home-shop-1-parallax.jpg');
-    background-position:center  0%;
-    background-attachment:fixed;
+    background-position: center 0%;
+    background-attachment: fixed;
 
 }
 
-.limited span{
+.limited span {
     color: white;
     font-size: 58px;
     font-weight: 600;
 }
-.limited p{
+
+.limited p {
     font-family: 'Open Sans', sans-serif;
- color: white;
-  font-weight: 400;
-  font-size: 20px;
-  line-height:35px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
 }
+
 .limited-content {
     width: 55%;
 }
-.btn1,.btn2{
+
+.btn1,
+.btn2 {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1.2px;
 }
-.btn1{
+
+.btn1 {
     background-color: #0cc3ce;
     transition: 0.5s;
- 
+
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: #191919;
 }
-.btn2{
-    border-color: rgba(255,255,255,0.5)!important;
+
+.btn2 {
+    border-color: rgba(255, 255, 255, 0.5) !important;
     transition: 0.5s;
     box-sizing: border-box !important;
- 
+
 }
-.btn2:hover{
+
+.btn2:hover {
     background-color: #0cc3ce;
     border: none !important;
 
 }
+
 /*Best Sellers  section*/
-.sellers{
+.sellers {
     text-align: center;
 }
 
- .sel-content{
+.sel-content {
     border-bottom: 1px solid #e1e2e5;
 }
-.sel-content span{
+
+.sel-content span {
     font-size: 12px;
-   color: #777;
+    color: #777;
 
 }
-.sel-content h5{
+
+.sel-content h5 {
     font-size: 15px;
-    color:#101010;
+    color: #101010;
     font-weight: 500;
     letter-spacing: -0.5px;
 
 }
-.sel-content p{
+
+.sel-content p {
     letter-spacing: -0.5px;
     font-size: 12px;
-    color:#101010;
+    color: #101010;
     font-weight: 500;
     text-align: left;
 }
 
-.cart1{
-    background-color:#101010;
+.cart1 {
+    background-color: #101010;
     float: left;
-    width:80%;
-    height:50px;
+    width: 80%;
+    height: 50px;
     text-align: center;
     padding: 12px 1px;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1.2px;
 }
-.cart2{
-  background-color:#101010; 
-  float: left;
-  width:20%; 
-  height: 50px;
-  text-align: center;
-  padding: 12px 1px;
-  border-left: 0.1px solid  #777;
-  transition: 0.5s;
+
+.cart2 {
+    background-color: #101010;
+    float: left;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    padding: 12px 1px;
+    border-left: 0.1px solid #777;
+    transition: 0.5s;
 
 }
-.cart2:hover{
-  background-color: #0cc3ce;
+
+.cart2:hover {
+    background-color: #0cc3ce;
 }
-.add-cart span ,.add-cart i{
-   color:white;
+
+.add-cart span,
+.add-cart i {
+    color: white;
 }
-.fir-img{
+
+.fir-img {
     position: absolute;
     z-index: 1;
-    top:0;
+    top: 0;
     transition: top 0.5s;
-   
-    transition-duration:top 0.5s;
-    }
-    .hov{
-        position: relative; 
-   overflow: hidden;
 
-    }
-    .add-cart{
-        overflow: hidden;
-      position: absolute;
-    left:0;
+    transition-duration: top 0.5s;
+}
+
+.hov {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.add-cart {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
     bottom: 8px;
     width: 100%;
     z-index: 0;
-    }
-    .hov-img{
-        z-index: -5;
- 
-    }
-.col-3:hover .fir-img{
-    top:-100%;
 }
+
+.hov-img {
+    z-index: -5;
+
+}
+
+.col-3:hover .fir-img {
+    top: -100%;
+}
+
 /*######################################## end Hiba Sections ########################################################*/
 /* israa section */
-.about{
+.about {
     height: 445px;
     background-image: url(../../assets/image/about/header.jpg);
     background-position: -293px -4px;
-    
-}
-.about h1{
-    color:white;
-    font-size: 72px;
-margin: auto;
-font-family: Poppins,sans-serif;
-font-weight: bold;
-text-align: center;
-padding-top: 165px;
 
 }
+
+.about h1 {
+    color: white;
+    font-size: 72px;
+    margin: auto;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 165px;
+
+}
+
 .iconn {
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 26px;
     color: #777;
     font-weight: 400;
     background-color: #fff;
-    overflow-x: hidden!important;
+    overflow-x: hidden !important;
     -webkit-font-smoothing: antialiased;
 }
 
 
-h2{
+.about h2 {
 
-        font-size: 30px;
-        line-height: 1.25em;
-        font-weight: 600;
-        letter-spacing: -.5px;
-        font-family: Poppins,sans-serif;
-        color: #101010;
+    font-size: 30px;
+    line-height: 1.25em;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    font-family: Poppins, sans-serif;
+    color: #101010;
 
 }
- h6 {
+
+h6 {
     color: #101010;
-font-size: 15px;
-padding-top: 20px;
-text-align: center;
-    }
-    .fa-solid{
-        text-align: center;
-    }
-    .picon{
-        text-align: center;
-    }
-.iconn{
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.fa-solid {
+    text-align: center;
+}
+
+.picon {
+    text-align: center;
+}
+
+.iconn {
     padding-top: 112px !important;
     padding-bottom: 62px !important;
     height: 459px;
-    
+
 }
 
 /*end israa */
