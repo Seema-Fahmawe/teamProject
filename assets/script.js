@@ -1,4 +1,5 @@
 /* loading header*/
+
 let carousel = document.querySelector(".carousel");
 carousel.style.opacity = 0;
 document.querySelector(".loading").style.visibility = "visible";
@@ -12,6 +13,7 @@ window.addEventListener("load", function () {
 })
 
 /* header scroll */
+
 let caption = document.querySelectorAll(".carousel-caption");
 window.addEventListener("scroll", function () {
     caption.forEach((caption) => {
@@ -27,7 +29,5 @@ window.addEventListener("scroll", function () {
     })
 
 })
-
-
 
 

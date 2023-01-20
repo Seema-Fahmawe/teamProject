@@ -1,6 +1,6 @@
 @media (max-width:1200px) {
 
-    /*#### start header style ####*/
+    /*#### start header  ####*/
     header .carousel-inner .carousel-item h2 {
         font-size: 64px;
         letter-spacing: -1px;
@@ -21,7 +21,7 @@
         margin-top: -25px;
     }
 
-    /*#### end header style ####*/
+    /*#### end header  ####*/
 
     .hov-img,
     .add-cart {
@@ -109,6 +109,7 @@
     }
 
     /*#### end header ####*/
+    /*#### start part2-header ####*/
     .part2-header .homeShop .item {
         margin: 10px 30px;
 
@@ -123,8 +124,16 @@
         left: 35%;
     }
 
-
     /*#### end part2-header ####*/
+
+    /*#### start footer ####*/
+    footer .col-lg-3:nth-child(4) .img-col4::after {
+        top: 185px;
+    }
+
+    /*#### end footer ####*/
+
+
 
     /*Shop Limited Edition section*/
     .limited {
@@ -177,6 +186,8 @@
         padding-left: 1.25rem;
         padding-right: 4rem;
     }
+
+
 
     /*Shop Limited Edition section*/
     .limited {
@@ -237,6 +248,8 @@
         padding: 1.5px;
         box-sizing: border-box;
     }
+
+
 }
 
 
@@ -248,10 +261,13 @@
 
     header .carousel-caption {
         width: 86%;
+
+    }
+
+    footer .col-lg-3:nth-child(4) .img-col4::after {
+        top: 150px;
     }
 }
-
-
 
 @media(max-width:390px) {
     header .carousel-inner .carousel-item h2 {

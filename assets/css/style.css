@@ -279,7 +279,8 @@ header {
 }
 
 /*#### part2-header ####*/
-/*#### end header ####*/
+
+
 
 /*#### start footer ####*/
 footer .logo {
@@ -402,7 +403,7 @@ footer .col-lg-3:nth-child(3) p {
     line-height: 15px;
 }
 
-footer .col-lg-3:nth-child(4) .d-flex::after {
+footer .col-lg-3:nth-child(4) .img-col4::after {
     content: '';
     border-bottom: 1px solid #777;
     width: 103%;
@@ -464,6 +465,7 @@ footer .form-control {
 }
 
 /*#### end footer ####*/
+
 /*############################ Hiba Sections ############################################*/
 a {
     text-decoration: none;
