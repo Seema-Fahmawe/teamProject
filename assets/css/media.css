@@ -100,7 +100,9 @@
     }
 
     /*#### start footer ####*/
-
+    footer .col-lg-3:nth-child(4) .img-col4::after{
+        top: 170px;
+    }
     /*#### end footer ####*/
 
 
@@ -139,6 +141,8 @@
 
     header .carousel-caption {
         width: 86%;
+    } footer .col-lg-3:nth-child(4) .img-col4::after{
+        top: 150px;
     }
 }
 
