@@ -475,7 +475,7 @@ a {
 .newProduct {
 
     text-align: center;
-    height: 75vh;
+    height: 30vh;
 
 }
 
@@ -484,7 +484,7 @@ a {
     font-size: 18px;
     font-weight: 500;
     color: #101010;
-    ;
+   
 
 }
 
@@ -556,6 +556,7 @@ a {
 /*Best Sellers  section*/
 .sellers {
     text-align: center;
+   
 }
 
 .sel-content {
