@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 /*#### start navbar ####*/
 .navbar {
@@ -715,3 +716,194 @@ h6 {
 }
 
 /*end israa */
+
+/*Start Raghad Section*/
+.aa{
+    text-decoration: none;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+/****************************/
+.Shipping{
+    background-image: url('../image/img_R/background.jpg');
+    background-size: cover;
+    padding: 80px;
+    overflow: hidden;
+}
+.Shipping h2{
+    float: left;
+    width: 70%;
+    font-size: 34px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    cursor: auto;
+}
+.Shipping button{   
+    float: right;
+    width: 15%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 15px;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    letter-spacing: 2px;
+}
+.Shipping button:hover{
+    background-color: #000;
+    border-color: #000;
+    transition-delay: 0.05s; 
+
+}
+/*********************************************************/
+.sales{
+    margin-top: 50px;
+}
+.sub_left, .sub_mid{
+    overflow: hidden;
+}
+.sales h4{
+    float: left;
+    width: 30%;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sales span{
+    float: left;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    color: rgb(187, 186, 186);
+    font-weight: 400;
+}
+.sales .sub_mid h4{
+    width: 20%;
+}
+.sales .sub_mid span{
+    width: 80%;
+}
+.sales .row{
+    padding-top: 40px;
+}
+.sales_all{
+    margin-top: 40px;
+}
+.sales_all img{
+    margin-top: 30px;
+}
+.sale1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.sale1 img{
+    height: 70px;
+    width: 65px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.sale1 .aa{
+    color: #101010;
+    font-size: 15px;
+    line-height: 1.6em;
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+}
+.sale1 .aa:hover{
+    color: #0cc3ce;
+    transition-delay: 0.05s;
+}
+.sale1 .left_a a{
+    color: #888787;
+    line-height: 1.2em;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+}
+.sale1 .left_a a:hover{
+    color: #0cc3ce;
+}
+/**********************************************/
+.Latest_Posts{
+    margin-top: 350px;
+    text-align: center;
+    background-color: #f4f4f4;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+.Latest_Posts h6{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+}
+.Latest_Posts h3{
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+}
+.Latest_Posts .row{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.Latest_Posts .row img{
+    width: 100%;
+}
+.Latest_Posts .row h5{
+    padding-top: 20px;
+    text-align: left;
+}
+.Latest_Posts .row h5:hover{
+    color: #0cc3ce;
+}
+.Latest_Posts .row h5 a{
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Latest_Posts .row h6{
+    font-size: 13px;
+    margin-top: 10px;
+    color: #0cc3ce;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+.Latest_Posts .row p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    color: #777;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.Latest_Posts .row .aa{
+    font-size: 13px;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 35px;
+    margin-right: 225px;
+    color: #000;
+}
+.Latest_Posts .row .aa:hover{
+    color: #777;
+    text-decoration: underline;
+}
+.Latest_Posts .row .aa span{
+    font-size: 15px;
+    color: #777;
+}
+
+/*End Raghad Section*/

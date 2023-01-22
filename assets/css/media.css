@@ -186,7 +186,38 @@
         padding-left: 1.25rem;
         padding-right: 4rem;
     }
-
+    
+    .Shipping{
+        padding-bottom: 130px;
+        padding-right: 150px;
+        background-position: center;
+    }
+    .Shipping h2{
+        float: none;
+        width: 200%;
+        margin-top: -20px;
+        margin-left: -50px;
+    }
+    .Shipping button{
+        float: none;
+        width: 80%;  
+        margin-left: 70px;
+    }
+/*******************************/
+    .Latest_Posts{
+        margin-top: 1050px;
+        height: 1800px;
+    }
+    .Latest_Posts .row img{
+    margin-top: 30px;
+    }
+    .Latest_Posts .row p{
+        margin-bottom: 20px;
+ 
+    }
+    .Latest_Posts .row .aa{
+        margin-left: -40px;
+    }
 
 
     /*Shop Limited Edition section*/
@@ -290,4 +321,101 @@
         opacity: 0;
     }
 
+
+
+}
+@media (min-width: 577px) and (max-width: 768px){
+    .container{
+        width: 75%;
+    }
+    .Shipping{
+        padding-bottom: 130px;
+        padding-right: 150px;
+        background-position: center;
+    }
+    .Shipping h2{
+        float: none;
+        width: 200%;
+        margin-top: -20px;
+        margin-left: -50px;
+    }
+    .Shipping button{
+        float: none;
+        width: 80%;  
+        margin-left: 70px;
+    }
+/*******************************/
+    .sales{
+        margin-top: 0;
+    }
+    .sub_left, .sub_mid, .sub_right{
+        margin-top: 40px;
+    }
+/*******************************/
+    .Latest_Posts{
+        margin-top: 1150px;
+        height: 2000px;
+    }
+    .Latest_Posts .row img{
+    margin-top: 30px;
+    }
+    .Latest_Posts .row p{
+        margin-bottom: 20px;
+ 
+    }
+    .Latest_Posts .row .aa{
+        margin-left: -40px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+    .Shipping{
+        padding-bottom: 50px;
+        padding-right: 150px;
+        background-position: center;
+    }
+    .Shipping h2{
+        width: 90%;
+        margin-top: -30px;
+        margin-left: -80px;
+        font-size: 30px;
+    }
+    .Shipping button{
+        width: 30%;  
+        margin-right: -150px;
+        margin-top: -30px;
+    }
+/*****************************************/
+    .Latest_Posts{
+        margin-top: 450px;
+        height: 700px;
+    }
+    .Latest_Posts .row img{
+    margin-top: 30px;
+    }
+    .Latest_Posts .row p{
+        margin-bottom: 20px;
+ 
+    }
+    .Latest_Posts .row .aa{
+        margin-left: -40px;
+    }
+    .sub_right{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 800){
+    .Shipping{
+        background-position: center;
+    }
+/************************************/
+    .Latest_Posts{
+        margin-top: 800px;
+        height: 700px;
+    }
+    .sub_right{
+        margin-top: 50px;
+    }
 }
