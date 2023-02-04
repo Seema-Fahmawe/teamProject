@@ -475,7 +475,7 @@ a {
 .newProduct {
 
     text-align: center;
-    height: 30vh;
+
 
 }
 
@@ -498,6 +498,7 @@ a {
 
 /*Shop Limited Edition section*/
 .limited {
+
     height: 65vh;
     background-image: url('../image/HibaImages/home-shop-1-parallax.jpg');
     background-position: center 0%;
