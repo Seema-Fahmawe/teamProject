@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* start header Portfolio */
+header {
+    background-color: #f6f6f6;
+}
+
+header .header-title .header-left h1 {
+    color: #101010;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .header-title .header-right a {
+    color: #777;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header .header-title .header-right a:hover {
+    color: #0cc3ce;
+    transition: 0.5s;
+}
+
+header .header-title .header-right .title {
+    color: #777;
+
+}
+
+header .header-title .header-right span {
+    color: #0cc3ce;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* end header Portfolio */
+
+/* start Suprema Hover */
+.title-product h5 {
+    text-align: center;
+    color: #101010;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.5px;
+}
+
+.SupremaHover .img-products .col-sm-4::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 130px;
+    width: 2px;
+    height: 60%;
+    transform: rotate(45deg);
+    background-color: #fff;
+    z-index: 999;
+    visibility: hidden;
+}
+
+.SupremaHover .img-products .col-sm-4::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 120px;
+    width: 2px;
+    height: 60%;
+    transform: rotate(45deg);
+    background-color: #fff;
+    z-index: 999;
+    visibility: hidden;
+}
+
+.SupremaHover .img-products .col-sm-4:hover::after {
+    top: -150px;
+    right: -25px;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.SupremaHover .img-products .col-sm-4:hover::before {
+    bottom: -150px;
+    left: -25px;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+/* end Suprema Hover */
+
+/* start DiagonalHover */
+.DiagonalHover {
+    background-color: #f6f6f6;
+    padding-bottom: 4rem;
+}
+
+.DiagonalHover .img-products .col-sm-4 .overlay {
+    z-index: 99;
+}
+
+.DiagonalHover .img-products .col-sm-4::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transform: rotate(234deg) translate(-355px, -3px) scale(2.2, 20);
+    visibility: hidden;
+}
+
+.DiagonalHover .img-products .col-sm-4:hover::after {
+    visibility: visible;
+    transition-duration: 1s;
+    transform: rotate(234deg) scale(2.1, 20) translate(-40px, 0px);
+
+}
+
+/*end DiagonalHover */
+
+/*  start Fade Hover */
+.img-products .col-sm-4 {
+    overflow: hidden;
+}
+
+.img-products .col-sm-4 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: calc(50% - 75px);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.img-products .col-sm-4:hover .overlay {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* end Fade Hover */
