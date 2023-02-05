@@ -20,3 +20,26 @@ topbtn.addEventListener("click", function () {
     })
 })
 
+
+let prevScrollpos = window.pageYOffset;
+
+window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+        if (scrollY > 70) {
+            document.querySelector(".navbar-brand").style.marginTop = "-12px";
+            document.querySelector(".navbar-brand").style.marginBottom = "-12px";
+           
+        } else {
+
+            document.querySelector(".navbar-brand").style.marginTop = "0";
+            document.querySelector(".navbar-brand").style.marginBottom = "0";
+        }
+
+    } else {
+        document.getElementById("navbar").style.top = "-90px";
+    }
+    prevScrollpos = currentScrollPos;
+}
+
