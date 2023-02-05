@@ -1,0 +1,20 @@
+@media (max-width:767px) {
+    footer .col-lg-3:nth-child(4) .img-col4::after {
+        top: 185px;
+    }
+
+}
+
+@media (max-width:576px) {
+    footer .container-fluid {
+        padding-left: 1.25rem;
+        padding-right: 4rem;
+
+    }
+}
+
+@media (max-width:490px) {
+    footer .col-lg-3:nth-child(4) .img-col4::after {
+        top: 150px;
+    }
+}
