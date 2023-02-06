@@ -697,9 +697,11 @@ a {
 /*######################################## end Hiba Sections ########################################################*/
 /* israa section */
 .about {
-    height: 445px;
+    
     background-image: url(../../assets/image/about/header.jpg);
-    background-position: -293px -4px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 65vh;
 
 }
 
@@ -710,14 +712,14 @@ a {
     font-family: Poppins, sans-serif;
     font-weight: bold;
     text-align: center;
-    padding-top: 165px;
+    
 
 }
 
 .iconn {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
-    line-height: 26px;
+    
     color: #777;
     font-weight: 400;
     background-color: #fff;
