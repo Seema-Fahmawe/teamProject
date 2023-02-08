@@ -5,7 +5,11 @@ body{
 }
 .navbar {
     --bs-navbar-padding-y: -0.5rem;
-    background-color:#252525;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .navbar .navbar-brand img{
     width: 50%;
@@ -56,14 +60,15 @@ body{
 /*#### end navbar ####*/
 
 .header{
-    position: relative;
+   position: relative;
+ height: 65vh;
     background-image: url('../image/img_R/background_Cart.jpg');
     padding: 250px 0;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
-.header h2{
+.header-content h1{
     font-size: 70px;
     color: #fff;
     text-align: center;
