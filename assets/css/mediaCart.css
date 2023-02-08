@@ -1,0 +1,36 @@
+@media (max-width: 576px){
+    .cart{
+        margin: 300px 0 150px;
+    }
+    .p-befor::before{
+        font-size: 150px;
+        top: 750px; 
+    }
+    .cart p{
+        font-size: 30px;
+        width: 70%;
+        margin-left: 100px;
+        margin-top: 300px;
+    }
+    .cart button{
+        margin-left: 180px;
+    }
+    }
+    @media (min-width: 577px) and (max-width: 768px){
+        .cart{
+            margin: 300px 0 200px;
+        }
+        .p-befor::before{
+            font-size: 200px;
+            top: 750px; 
+        }
+        .cart p{
+            font-size: 30px;
+            width: 70%;
+            margin-left: 130px;
+            margin-top: 400px;
+        }
+        .cart button{
+            margin-left: 250px;
+        }
+    }
