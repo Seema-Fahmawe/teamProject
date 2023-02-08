@@ -59,7 +59,7 @@
     border-bottom: 4px solid #0cc3ce;
     width: 0%;
     position: absolute;
-    bottom:var(--borderlink , -25px) ;
+    bottom: var(--borderlink, -25px);
     left: 0%;
     visibility: hidden;
     transition: width 0.5s;
@@ -697,7 +697,7 @@ a {
 /*######################################## end Hiba Sections ########################################################*/
 /* israa section */
 .about {
-    
+
     background-image: url(../../assets/image/about/header.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -712,14 +712,14 @@ a {
     font-family: Poppins, sans-serif;
     font-weight: bold;
     text-align: center;
-    
+
 
 }
 
 .iconn {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
-    
+
     color: #777;
     font-weight: 400;
     background-color: #fff;
@@ -991,16 +991,19 @@ h6 {
 
 /* Start Cart Section */
 /*#### start navbar ####*/
-body{
+body {
     height: 1000px;
 }
+
 .navbar {
     --bs-navbar-padding-y: -0.5rem;
-    background-color:#252525;
+    background-color: #252525;
 }
-.navbar .navbar-brand img{
+
+.navbar .navbar-brand img {
     width: 50%;
 }
+
 .navbar .navbar-nav .nav-item .nav-link {
     color: #fff;
     font-weight: 500;
@@ -1011,6 +1014,7 @@ body{
     padding-left: 0;
     display: inline-block;
 }
+
 .navbar .link i {
     font-size: 22px;
     color: #fff;
@@ -1046,7 +1050,7 @@ body{
 
 /*#### end navbar ####*/
 
-.header{
+.header {
     position: relative;
     background-image: url('../image/img_R/background_Cart.jpg');
     padding: 250px 0;
@@ -1054,16 +1058,19 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-.header h2{
+
+.header h2 {
     font-size: 70px;
     color: #fff;
     text-align: center;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
 }
-.cart{
+
+.cart {
     margin: 300px 0 400px;
 }
-.p-befor::before{
+
+.p-befor::before {
     content: "\f07a";
     font-family: "FontAwesome";
     position: absolute;
@@ -1073,7 +1080,8 @@ body{
     left: 170px;
     z-index: -1;
 }
-.cart p{
+
+.cart p {
     font-size: 30px;
     font-weight: 700;
     width: 40%;
@@ -1083,7 +1091,8 @@ body{
     padding: 10px;
     background-color: #f6f6f5;
 }
-.cart button{
+
+.cart button {
     margin-left: 570px;
     font-size: 12px;
     padding: 15px 40px;
@@ -1092,10 +1101,12 @@ body{
     background-color: #0cc3ce;
     color: #fff;
 }
-.cart button:hover{
+
+.cart button:hover {
     background-color: #000;
     color: #fff;
 }
+
 /*#### start footer ####*/
 footer .logo {
     width: 50%;
