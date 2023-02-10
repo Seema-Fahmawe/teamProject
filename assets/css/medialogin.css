@@ -1,0 +1,12 @@
+@media (min-width: 398px) and (max-width:600px) {
+
+    .header-content  h1{
+    font-size: 45px !important;
+}
+
+}
+@media (min-width: 398px) and (max-width:800px) {
+    .logg {
+        display: inline !important ;
+    }
+}
