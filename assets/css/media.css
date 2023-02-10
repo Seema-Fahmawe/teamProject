@@ -413,9 +413,8 @@
 
 @media (min-width: 398px) and (max-width:600px) {
     .about{
-        background-position: cover;
-        background-attachment: fixed;
-        
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 .about h1 span{
     font-size:45px;
