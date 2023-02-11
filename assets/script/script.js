@@ -29,7 +29,6 @@ window.addEventListener("scroll", function () {
 })
 
 
-
 /* scroll to top */
 document.querySelector(".top-icon").style.opacity = 0;
 window.addEventListener("scroll", function () {
@@ -53,10 +52,8 @@ topbtn.addEventListener("click", function () {
 
 
 
-
 let prevScrollpos = window.pageYOffset;
 let navLink = document.querySelector(".nav-link::after");
-
 window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {

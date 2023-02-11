@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <!--  style.css-->
-    <link rel="stylesheet" href="assets/css/styleCart.css">
+  <!-- frontawesome -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
 
-    <!-- frontawesome -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
- 
-    <!-- Media qery-->
-    <link rel="stylesheet" href="assets/css/mediaCart.css">
+  <!--  style.css-->
+  <link rel="stylesheet" href="assets/css/styleCart.css">
+
+  <!-- Media qery-->
+  <link rel="stylesheet" href="assets/css/mediaCart.css">
 
 </head>
-<body>
-   
 
-  <!--##### start header #####-->
-  <header class="header  ">
-    <!--##### start navbar #####-->
-    <nav class="navbar navbar-expand-lg bg-body-white ">
-      <div class="container-fluid ms-4 me-4">
-          <a class="navbar-brand" href="#"><img src="assets/image/img_R/logo-light.png"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 me-4">
-                  <li class="nav-item  ">
-                      <a class="nav-link active position-relative fw-bold" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link position-relative text-white fw-bold" href="portfolio.html">Portfolio</a>
-                  </li>
-  
-                  <li class="nav-item ">
-                      <a class="nav-link position-relative text-white fw-bold" href="products.html">Products</a>
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link position-relative text-white fw-bold" href="login.html">Login</a>
-                  </li>
-  
-              </ul>
-          </div>
-          <a class="link position-relative  " href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+<body>
+  <div class="top-icon ">
+    <button class="top"><i class="fa-solid fa-angle-up "></i></button>
+  </div>
+
+  <!--##### start navbar #####-->
+  <nav class="navbar navbar-expand-lg " id="navbar">
+    <div class="container-fluid ms-4 me-4 ">
+      <a class="navbar-brand logo-1 position-relative" href="#"><img src="assets/image/logo-light.png"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 me-4">
+          <li class="nav-item  ">
+            <a class="nav-link active position-relative" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link position-relative" href="portfolio.html">Portfolio</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link position-relative" href="products.html">Products</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link position-relative" href="login.html">Login</a>
+          </li>
+
+        </ul>
       </div>
-  
+      <a class="link position-relative" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+    </div>
   </nav>
   <!--##### end navbar #####-->
-  <div class="header-content  d-flex justify-content-center align-items-center  ">
-  
-    
-      <h1>  Cart
-      </h1>
-  
-  
+
+  <!--##### start header #####-->
+  <header class="header  d-flex  justify-content-center align-items-center  ">
+    <div class="header-content ">
+      <h1> Cart</h1>
     </div>
-  
-  
   </header>
   <!--##### end header #####-->
 
   <!--##### start cart #####-->
-  <div class="cart">
-    <div class="p-befor ">
-      <p>  Your cart is currently empty.</p>
+  <div class="cart ">
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-lg-4 ">
+          <div class="icon-shop position-relative "></div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="content">
+            <div class="p-befor mb-5 text-lg-start text-center">
+              <p class="text-center">Your cart is currently empty.</p>
+              <button class="btn text-decoration-none  text-lg-start " href="products.html">RETURN TO SHOP</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
-    <button class="btn text-decoration-none" href="products.html">RETURN TO SHOP</button>
   </div>
   <!--##### end cart #####-->
 
@@ -84,7 +92,7 @@
     <div class="container-fluid  py-5 ">
       <div class="row ">
         <div class="col-sm-12 col-md-6 col-lg-3  ">
-          <img src="assets/image/img_R/logo-light.png" class="logo">
+          <img src="assets/image/logo-light.png" class="logo">
           <p class="desc"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
             euismod
             tincidunt ut laoreet.</p>
@@ -156,23 +164,23 @@
           <h4 class="title">Instagram Feed </h4>
           <div class="d-flex row-cols-5 gap-2 img-col4 ">
             <div class="footer-item position-relative">
-              <a href="#"><img src="assets/image/img_R/feed-1.jpg"
+              <a href="#"><img src="assets/image/footerImage/43014433_555847148170483_1439512256660589311_n.jpg"
                   alt="image Instagram Feed " class="w-100"></a>
             </div>
             <div class="footer-item position-relative">
-              <a href="#"><img src="assets/image/img_R/feed-2.jpg"
+              <a href="#"><img src="assets/image/footerImage/42138627_683440648695506_1611128056367001600_n.jpg"
                   alt="image Instagram Feed " class="w-100"></a>
             </div>
             <div class="footer-item position-relative">
-              <a href="#"><img src="assets/image/img_R/feed-3.jpg"
+              <a href="#"><img src="assets/image/footerImage/42473423_277878343062471_5345212305652247904_n.jpg"
                   alt="image Instagram Feed " class="w-100"></a>
             </div>
             <div class="footer-item position-relative">
-              <a href="#"><img src="assets/image/img_R/feed-4.jpg"
+              <a href="#"><img src="assets/image/footerImage/43778629_307601923388369_8670746155294819557_n.jpg"
                   alt="image Instagram Feed " class="w-100"></a>
             </div>
             <div class="footer-item position-relative">
-              <a href="#"><img src="assets/image/img_R/feed-5.jpg"
+              <a href="#"><img src="assets/image/footerImage/43578336_2109702579322883_5541165108336634213_n.jpg"
                   alt="image Instagram Feed " class="w-100"></a>
             </div>
           </div>
@@ -191,17 +199,22 @@
           </form>
 
           <div class="footer-image mt-5">
-            <img src="assets/image/img_R/flag-footer.png">
+            <img src="assets/image/footerImage/footer-image.png" class="w-100">
           </div>
 
         </div>
       </div>
     </div>
+
   </footer>
   <!--##### end footer #####-->
-     <!--  Bootstrap -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-     crossorigin="anonymous"></script>
+
+  <!--  Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+    <script src="assets/script/scriptCart.js"></script>
 </body>
+
 </html>

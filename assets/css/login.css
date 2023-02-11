@@ -1,17 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+/*#### start topIcon #####*/
+.top-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 999999;
+
+}
+
+.top-icon .top {
+    background-color: transparent;
+    border: 1px solid #adadad;
+    padding: 13px 15px;
+}
+
+.top-icon .top:hover {
+    background-color: #0cc3ce;
+    border-color: #0cc3ce;
+    transition: 0.5s;
+}
+
+.top-icon .top:hover i {
+    color: #FFF;
+}
+
+.top-icon i {
+    font-size: 20px;
+    color: #adadad;
+}
+/*##### end topIcon ######*/
 
 
 /*#### start navbar ####*/
 .navbar {
+    background-color: transparent;
     --bs-navbar-padding-y: -0.5rem;
- 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
 }
 
 .navbar .navbar-brand img {
     width: 50%;
 }
 
+.navbar .logo-1::before {
+    content: "";
+    background-image: url(../image/logo-dark.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 50%;
+    display: none;
+}
+
 .navbar .navbar-nav .nav-item .nav-link {
-    color: #252525;
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
@@ -21,13 +75,9 @@
     display: inline-block;
 }
 
-.navbar .navbar-nav .nav-item .active {
-    color: #0cc3ce;
-}
-
 .navbar .link i {
     font-size: 22px;
-    color: #252525
+    color: #fff;
 }
 
 .navbar .link::after {
@@ -40,10 +90,6 @@
     position: absolute;
     left: 65%;
     top: -12%;
-}
-
-.navbar .navbar-nav .nav-item .nav-link:hover {
-    color: #0cc3ce;
 }
 
 .navbar .navbar-nav .nav-item .nav-link::after {
@@ -61,29 +107,35 @@
     width: 100%;
     visibility: visible;
 }
+
 /*end navbar*/
+
 /*start header*/
 header{
+    position: relative;
     background-image: url(../image/login/headerr.jpg);
-    height: 65vh;
+    height: 70vh;
     background-position-x: -290px;  
+    background-repeat: no-repeat;
 }
+
 .header-content h1 {
     letter-spacing: -3px;
     font-size: 72px !important;
-    padding-top: 30px !important;
-      
-    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 /*end header*/
+
 /*start login*/
 h2{
     font-size: 33px;
     line-height: 1.4em;
 }
 
-.form-control{
-    width: 50%;
+.login .logg .form-control{
+    border-radius: 0;
+    height: 50px;
 }
 /*end login*/
 

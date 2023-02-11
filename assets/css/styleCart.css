@@ -1,19 +1,70 @@
 /* Start Cart Section */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+/*#### start toIcon #####*/
+.top-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 999999;
+
+}
+
+.top-icon .top {
+    background-color: transparent;
+    border: 1px solid #adadad;
+    padding: 13px 15px;
+}
+
+.top-icon .top:hover {
+    background-color: #0cc3ce;
+    border-color: #0cc3ce;
+    transition: 0.5s;
+}
+
+.top-icon .top:hover i {
+    color: #FFF;
+}
+
+.top-icon i {
+    font-size: 20px;
+    color: #adadad;
+}
+
+/*##### end topIcon ######*/
+
 /*#### start navbar ####*/
-body{
-    height: 1000px;
-}
 .navbar {
+    background-color: transparent;
     --bs-navbar-padding-y: -0.5rem;
-    background-color:transparent;
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    z-index: 999;
+    width: 100%;
 }
-.navbar .navbar-brand img{
+
+.navbar .navbar-brand img {
     width: 50%;
 }
+
+.navbar .logo-1::before {
+    content: "";
+    background-image: url(../image/logo-dark.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 50%;
+    display: none;
+}
+
 .navbar .navbar-nav .nav-item .nav-link {
     color: #fff;
     font-weight: 500;
@@ -24,6 +75,7 @@ body{
     padding-left: 0;
     display: inline-block;
 }
+
 .navbar .link i {
     font-size: 22px;
     color: #fff;
@@ -59,57 +111,61 @@ body{
 
 /*#### end navbar ####*/
 
-.header{
-   position: relative;
- height: 65vh;
+.header {
+    position: relative;
+    height: 75vh;
     background-image: url('../image/img_R/background_Cart.jpg');
-    padding: 250px 0;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
 }
-.header-content h1{
-    font-size: 70px;
+
+.header-content h1 {
+    font-size: 72px;
     color: #fff;
-    text-align: center;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -3px;
+    font-weight: 600;
 }
-.cart{
-    margin: 300px 0 400px;
+
+.cart {
+    margin: 200px 0 300px;
 }
-.p-befor::before{
+
+.icon-shop::before {
     content: "\f07a";
     font-family: "FontAwesome";
     position: absolute;
-    font-size: 300px;
+    font-size: 250px;
     color: #b6b6b6;
-    top: 900px;
-    left: 170px;
-    z-index: -1;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    top: 0;
 }
-.cart p{
+
+.cart p {
     font-size: 30px;
     font-weight: 700;
-    width: 40%;
-    margin-left: 500px;
-    margin-top: -90px;
-    text-align: center;
-    padding: 10px;
     background-color: #f6f6f5;
+    padding: 10px 0;
 }
-.cart button{
-    margin-left: 570px;
+
+.cart button {
     font-size: 12px;
     padding: 15px 40px;
-    margin-top: 50px;
     font-weight: 700;
     background-color: #0cc3ce;
     color: #fff;
+    border-radius: 0;
 }
-.cart button:hover{
+
+.cart button:hover {
     background-color: #000;
     color: #fff;
 }
+
 /*#### start footer ####*/
 footer .logo {
     width: 50%;
@@ -284,9 +340,6 @@ footer .col-lg-3:nth-child(4) .btn:hover {
     background-color: #0cc3ce;
 }
 
-footer .footer-image img {
-    width: 112% !important;
-}
 
 footer .form-control {
     color: #fff !important;

@@ -19,7 +19,9 @@
 }
 
 @media (max-width:991px) {
-
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        bottom: 0px;
+    }
 
     /*#### start header ####*/
 
@@ -409,16 +411,17 @@
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/
-/*start about */ 
+/*start about */
 
 @media (min-width: 398px) and (max-width:600px) {
-    .about{
+    .about {
         background-size: contain;
         background-repeat: no-repeat;
     }
-.about h1 span{
-    font-size:45px;
-}
-}
-/* end about */
 
+    .about h1 span {
+        font-size: 45px;
+    }
+}
+
+/* end about */

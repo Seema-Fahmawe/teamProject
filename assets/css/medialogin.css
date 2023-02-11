@@ -1,12 +1,63 @@
-@media (min-width: 398px) and (max-width:600px) {
+@media (max-width:991px) {
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        bottom: 0px;
+    }
+    
+    .navbar {
+        background-color: #fff;
+    }
 
-    .header-content  h1{
-    font-size: 45px !important;
-}
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #252525;
+    }
 
-}
-@media (min-width: 398px) and (max-width:800px) {
-    .logg {
-        display: inline !important ;
+    .navbar .logo-1::before {
+        display: inline-block;
+    }
+
+    .navbar .link i {
+        color: #252525;
+    }
+
+    .header {
+        background-attachment: unset;
+        background-position-y: 82px;
+    }
+
+    .header .header-content {
+        padding-top: 50px;
+        text-align: center;
     }
 }
+
+@media (max-width:767px){
+    footer .col-lg-3:nth-child(4) .img-col4::after {
+        top: 185px;
+    }
+}
+
+@media(max-width:576px){
+    .navbar-brand {
+        width: 65%;
+    }
+    footer .container-fluid {
+        padding-left: 1.25rem;
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width:490px){
+    footer .col-lg-3:nth-child(4) .img-col4::after {
+        top: 150px;
+    }
+}
+
+@media (min-width: 398px) and (max-width:600px) {
+    .header-content h1 {
+        font-size: 45px !important;
+    }
+
+}
+
+
+
