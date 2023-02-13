@@ -12,7 +12,7 @@
     /*#### end header  ####*/
 
     .hov-img,
-    .add-cart {
+    .add-cart1 {
         padding: 1.5px;
         box-sizing: border-box;
     }
@@ -71,7 +71,7 @@
     }
 
     .hov-img,
-    .add-cart {
+    .add-cart1 {
         padding: 1.5px;
         box-sizing: border-box;
     }
@@ -126,10 +126,10 @@
 
 
     /*Shop Limited Edition section*/
-    .limited {
-
-        background-position: cover;
-    }
+    .limited{
+        background-size: cover;
+       }
+   
 
     .limited span {
         font-size: 40px;
@@ -147,7 +147,7 @@
     }
 
     .hov-img,
-    .add-cart {
+    .add-cart1 {
         padding: 1.5px;
         box-sizing: border-box;
     }
@@ -196,10 +196,7 @@
     }
 
     /*******************************/
-    .Latest_Posts {
-        margin-top: 1050px;
-        height: 1800px;
-    }
+  
 
     .Latest_Posts .row img {
         margin-top: 30px;
@@ -216,10 +213,9 @@
 
 
     /*Shop Limited Edition section*/
-    .limited {
-
-        background-position: cover;
-    }
+    .limited{
+        background-size: cover;
+       }
 
     .limited span {
         font-size: 30px;
@@ -237,7 +233,7 @@
     }
 
     .hov-img,
-    .add-cart {
+    .add-cart1 {
         padding: 1.2px;
         box-sizing: border-box;
     }
@@ -250,6 +246,9 @@
         width: 100%;
 
     }
+    .limited{
+        background-size: cover;
+       }
 
     .limited p {
 
@@ -271,7 +270,7 @@
     }
 
     .hov-img,
-    .add-cart {
+    .add-cart1 {
         padding: 1.5px;
         box-sizing: border-box;
     }
@@ -298,7 +297,7 @@
     }
 
     .Shipping {
-        padding-bottom: 130px;
+      
         padding-right: 150px;
         background-position: center;
     }
@@ -328,10 +327,7 @@
     }
 
     /*******************************/
-    .Latest_Posts {
-        margin-top: 1150px;
-        height: 2000px;
-    }
+   
 
     .Latest_Posts .row img {
         margin-top: 30px;
@@ -370,7 +366,7 @@
 
     /*****************************************/
     .Latest_Posts {
-        margin-top: 450px;
+     
         height: 700px;
     }
 
@@ -398,10 +394,7 @@
     }
 
     /************************************/
-    .Latest_Posts {
-        margin-top: 800px;
-        height: 700px;
-    }
+    
 
     .sub_right {
         margin-top: 50px;
@@ -425,3 +418,12 @@
 }
 
 /* end about */
+@media (max-width:336px) {
+    .btn1,.btn2{
+        padding: 20px !important;
+    }
+   .limited{
+    background-size: cover;
+   }
+    
+}
