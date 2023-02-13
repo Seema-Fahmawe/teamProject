@@ -21,13 +21,4 @@ topbtn.addEventListener("click", function () {
 /* end nav */
 /* start login*/
 
-var exampleInputEmail1 = document.getElementById("exampleInputEmail1");
-var exampleInputPassword1 = document.getElementById("exampleInputPassword1");
-var exampleInputEmail2 = document.getElementById("exampleInputEmail2");
-var exampleInputEmail2 = document.getElementById("exampleInputEmail2");
-
-function adduser(e) {
-e.preventDefault();
-window.console.log(exampleInputEmail1.value ,exampleInputPassword1.value );
-}
 

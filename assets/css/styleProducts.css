@@ -64,6 +64,7 @@ ul {
     background-color: #fff !important;
     z-index: 999;
     width: 100%;
+
 }
 
 .navbar .navbar-brand img {
@@ -89,17 +90,20 @@ ul {
     font-size: 22px;
     color: #252525
 }
+.cartCounter{
+    position: relative;
 
-.navbar .link::after {
-    content: '0';
+}
+.navbar .counter{
+   position: absolute;
     background-color: #0cc3ce;
     border-radius: 50%;
     padding: 0px 4px;
     font-size: 10px;
     color: #fff;
     position: absolute;
-    left: 65%;
-    top: -12%;
+   right: -5px;
+ top:-5px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {

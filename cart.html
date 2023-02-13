@@ -28,7 +28,7 @@
   </div>
 
   <!--##### start navbar #####-->
-  <nav class="navbar navbar-expand-lg " id="navbar">
+  <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container-fluid ms-4 me-4 ">
       <a class="navbar-brand logo-1 position-relative" href="#"><img src="assets/image/logo-light.png"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -53,7 +53,11 @@
 
         </ul>
       </div>
-      <a class="link position-relative" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+      <div class="cartCounter"> 
+        <a class="link position-relative" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+       <div class="counter">0</div></div>
+     </div>
+ 
     </div>
   </nav>
   <!--##### end navbar #####-->
@@ -77,9 +81,9 @@
           <div class="content">
             <div class="p-befor mb-5 text-lg-start text-center">
               <p class="text-center">Your cart is currently empty.</p>
-              <button class="btn text-decoration-none  text-lg-start " href="products.html">RETURN TO SHOP</button>
+              <a  href="products.html" class="btn border border-1 bg-info  px-5 py-2 text-white rounded-3 mt-5 mx-5 fw-bolder" >RETURN TO SHOP</a>
             </div>
-
+    
           </div>
         </div>
       </div>
@@ -213,8 +217,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-
-    <script src="assets/script/scriptCart.js"></script>
+<script src="assets/script/scriptProducts.js"></script>
 </body>
 
 </html>
