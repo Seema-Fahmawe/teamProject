@@ -406,10 +406,11 @@
 /****************************************************************************/
 /*start about */
 
-@media (min-width: 398px) and (max-width:600px) {
+@media (min-width: 398px) and (max-width:660px) {
     .about {
-        background-size: contain;
-        background-repeat: no-repeat;
+ background-size:cover;
+ background-attachment: local;
+
     }
 
     .about h1 span {
